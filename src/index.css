@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:where(.css-dev-only-do-not-override-djtmh8).ant-radio-wrapper .ant-radio-input {
+    opacity: 1;
+}
+
+:where(.css-dev-only-do-not-override-djtmh8).ant-input-number .ant-input-number-handler-wrap {
+    opacity: 1;
+    border-left: 2px solid black;
+}
+
+:where(.css-dev-only-do-not-override-djtmh8).ant-tabs .ant-tabs-tab.ant-tabs-tab-active {
+    font-size: xx-large;
+    font-weight: 600;
+}
+
+
+.formLabel{
+    font-weight: 800 !important;
+}
